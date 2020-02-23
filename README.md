@@ -2,10 +2,10 @@
 This repository is a demonstration of Coursera Capstone Project Course for IBM Data Science Professional Certificate
 
 ## About the project:
-This includes the projects in the last course of IBM Data Science Professional Certificate. The course guidlines is to make an application using K-means clustering with Foursquare location API to create a simple application.
+This includes the projects in the last course of IBM Data Science Professional Certificate. The course guidelines are to make a simple application using K-means clustering with Foursquare location API.
 
 ## Introduction/Business problem:
-Every week, we spend tow days or one day at least as a weekend. Sometimes, we feel confused about where to spend this weekend, or where should I go. Planning a good weekend will help people feel happier and better. We will create and application will recommend the users with some places where they can have fun and enjoy their times. The target audience, mostly everyone above the age of 18 years they can use the app to find places to visit in their weekends.
+Every week, we spend two days or one day at least as a weekend. Sometimes, we feel confused about where to spend this weekend, or where should I go. Planning a good weekend will help people feel happier and better. We will create an application that will recommend the users with some places where they can have fun and enjoy their times. The target audience, mostly everyone above the age of 18 years they can use the app to find places to visit in their weekends.
 
 ## Data:
 The data will be acquired from Foursquare.com depending on the customer location. We will show the users a map with every place they can visit and have a good time around their place.
@@ -14,7 +14,7 @@ We will determine the user location and get all cities and places around the use
 The data includes the names of neighborhoods and their postal codes.
 
 ## Methodology:
-We will obtain the data based on neighborhoods of the user current location from four squares, we filter data based on category to select only places suitable for having good times at weekends and holidays.
+We will obtain the data based on neighborhoods of the user current location from Foursquare, we filter data based on category to select only places suitable for having good times at weekends and holidays.
 After extracting the suitable data, we will cluster them using K-means to provide them in groups for the user, so the user can choose something suitable for him/her. Such as clubs/ theaters/ gaming cafes and so on. 
 
 ## Results:
